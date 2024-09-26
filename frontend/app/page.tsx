@@ -1,9 +1,9 @@
-import Testing from "./components/testing";
+import Loading from "./components/loading";
 
 export default function Home() {
   return (
     <div>
-		  <Testing />
+		  <Loading />
     </div>
   );
 }
