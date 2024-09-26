@@ -1,21 +1,15 @@
 "use client";
 
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+/* import { useEffect, useState } from 'react'; */
 
 export default function Testing() {
 
-    const [backendData, setBackendData] = useState([{}])
+    /* const [backendData, setBackendData] = useState([{}])
 
     const url = 'http://localhost:5000/api'
 
-    /* const fetchData = async () => {
-        const response = await fetch(url)
-        const data = await response.json()
-        console.log(data)
-        setBackendData(data)
-    } */
-
-    /* useEffect(() => {
+    useEffect(() => {
         fetch(url).then(
             response => response.json()
         ).then(
@@ -23,9 +17,9 @@ export default function Testing() {
                 setBackendData(data)
             }
         )
-    }) */
+    })
 
-    const lst = {'users': ['userone', 'usertwo', 'userthree']}
+    const lst = {'users': ['userone', 'usertwo', 'userthree']} */
 
     return (
         <div>
