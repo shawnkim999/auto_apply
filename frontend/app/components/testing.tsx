@@ -15,7 +15,7 @@ export default function Testing() {
         setBackendData(data)
     } */
 
-    useEffect(() => {
+    /* useEffect(() => {
         fetch(url).then(
             response => response.json()
         ).then(
@@ -23,19 +23,19 @@ export default function Testing() {
                 setBackendData(data)
             }
         )
-    })
+    }) */
 
     const lst = {'users': ['userone', 'usertwo', 'userthree']}
 
     return (
         <div>
-            {(typeof backendData.users === 'undefined') ? (
+            {/* {(typeof backendData.users === 'undefined') ? (
                 <p></p>
             ) : (
                 backendData.users.map((user, i) => (
                     <p key={i}>{user}</p>
                 ))
-            )}
+            )} */}
         </div>
     )
 }
